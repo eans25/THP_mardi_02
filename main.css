@@ -8,12 +8,14 @@
 
 
 
-ul {
+ul
+{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+	overflow: hidden;
 }
+
 
 li a 
 {
@@ -25,7 +27,8 @@ li a
 
 	
 li a:hover {
-    background-color: #DCDCDC;
+	color: white; 
+    background-color: #808080;
 }
 
 .passive 
@@ -34,42 +37,51 @@ float: left;
  }
 
 
-#google{ 
-	margin: auto;
-     width: 38%;
-     height: 400px; 
+#outer_google
+{
+	padding: 100px;
+	background: red; 
+}
 
-     background-color: #ccc;
-/*width: 60px; 
-height: 60px; 
-position: absolute;
-top: 0; 
-right: 0; 
-left: 0; 
-bottom: 0; */
-   }
+#inner_google
+{ 
+	margin: 0 auto;
+    width: 600px;
+	height: 600px ; 
+	background-color: #ccc;
+	text-align: center; 
+	background: green;  
+}
 
+
+
+
+#
 
 #country
 {
-
+	color: #A9A9A9;
 	position: fixed;
-    bottom: 30px;
+    bottom: 35px;
     width: 100%;
+    border-top: 1px solid #A9A9A9; 
+    background: #F2F2F2;
+
+   
 }
 
-#footer 
+#lien
 {
+	color: #A9A9A9;
 	position: fixed;
     bottom: 0;
     width: 100%;
-    background: #DCDCDC;
+    background: #F2F2F2;
+    border-top: 1px solid #A9A9A9; 
+
 }
 
 p
 {
 	margin-left: 20px;
-
-
-
 }
