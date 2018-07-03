@@ -1,0 +1,75 @@
+
+
+
+ body
+{
+	margin: 0; 
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a 
+{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+	
+li a:hover {
+    background-color: #DCDCDC;
+}
+
+.passive 
+{ 
+float: left;
+ }
+
+
+#google{ 
+	margin: auto;
+     width: 38%;
+     height: 400px; 
+
+     background-color: #ccc;
+/*width: 60px; 
+height: 60px; 
+position: absolute;
+top: 0; 
+right: 0; 
+left: 0; 
+bottom: 0; */
+   }
+
+
+#country
+{
+
+	position: fixed;
+    bottom: 30px;
+    width: 100%;
+}
+
+#footer 
+{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #DCDCDC;
+}
+
+p
+{
+	margin-left: 20px;
+
+
+
+}
